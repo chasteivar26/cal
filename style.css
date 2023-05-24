@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+}
+button{
+	width: 55px;
+	height: 40px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	border: solid 3px;
+	border-top-color: #8c8c8c;
+	border-right-color: #8c8c8c;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+
+}
+body #card div #screen{
+	width: 224px;
+	height: 30px;
+	font-size: 20px;
+	text-align: right;
+	border: solid 3px;
+	border-bottom-color: #8c8c8c;
+	border-left-color: #8c8c8c;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-radius: 4px;
+
+}
+body #card #watchDiv #watch{
+	width: 70px;
+	height: 25px;
+	font-size: 20px;
+	border: solid 3px;
+	border-bottom-color: #8c8c8c;
+	border-left-color: #8c8c8c;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-radius: 4px;
+}
+body #card  {
+	background-color: black;
+	width: 233px;
+	margin:  auto;
+	padding: 20px;
+	border-radius: 8px;
+	border: solid 7px;
+	border-top-color: #8c8c8c;
+	border-right-color: #8c8c8c;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+	transition: 4s;
+}

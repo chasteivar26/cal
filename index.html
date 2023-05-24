@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script src="behavior.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="card">
+            <div>
+            <input type="" id="screen" placeholder="0">
+            </div>
+            <div id="watchDiv">
+            <input type="text" id="watch">
+            </div>
+            <div>
+                <button onclick="SquareRoot()">Sqrt</button>
+                <button onclick="squareKey()">Sq</button>
+                <button onclick="clearKey()">Clr</button>
+                <button onclick="deleteKey()">Del</button>
+            </div>
+            <div>
+                <button onclick="isClicked(7)">7</button>
+                <button onclick="isClicked(8)">8</button>
+                <button onclick="isClicked(9)">9</button>
+                <button onclick="isClicked('/')">/</button>
+            </div>
+        <div>
+            <button onclick="isClicked(4)">4</button>
+            <button onclick="isClicked(5)">5</button>
+            <button onclick="isClicked(6)">6</button>
+            <button onclick="isClicked('*')">x</button>
+        </div>
+        <div>
+            <button onclick="isClicked(1)">1</button>
+            <button onclick="isClicked(2)">2</button>
+            <button onclick="isClicked(3)">3</button>
+            <button onclick="isClicked('-')">-</button>
+        </div>
+        <div>
+            <button onclick="isClicked('+')">+</button>
+            <button onclick="isClicked(0)">0</button>
+            <button onclick="isClicked('.')">.</button>
+            <button onclick="equal()">=</button>
+        </div>
+    </div>
+    
+</body>
+</html>
